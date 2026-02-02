@@ -39,8 +39,5 @@ AutoDataCleaner/
 ├── README.md
 └── .gitignore
 
-## Usage
 
-1. Drop your CSV in `data/incoming/`
-2. Update rules in `config/schema.yaml`
-3. Run `python main.py`
+
