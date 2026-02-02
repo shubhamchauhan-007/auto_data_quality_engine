@@ -1,0 +1,21 @@
+columns:
+  id:
+    dtype: int
+    required: true
+    unique: true
+    action:
+      duplicates: drop
+
+  age:
+    dtype: int
+    required: false
+    min: 0
+    max: 120
+    action:
+      missing: median
+
+  email:
+    dtype: string
+    required: true
+    action:
+      missing: drop

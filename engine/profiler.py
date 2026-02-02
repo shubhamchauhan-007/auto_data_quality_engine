@@ -1,7 +1,7 @@
 def profile_data(df):
 
     profile = {
-        "row-count": len(df),
+        "row_count": len(df),
         "column_count":df.shape[1],
         "columns": {}
     }

@@ -13,3 +13,5 @@ vevn/
 data/incoming/
 data/cleaned/
 data/reports/
+
+*.log
